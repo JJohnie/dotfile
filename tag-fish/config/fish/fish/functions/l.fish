@@ -1,0 +1,1 @@
+/home/johnie/.dotfiles/tag-fish/config/fish/functions/l.fish

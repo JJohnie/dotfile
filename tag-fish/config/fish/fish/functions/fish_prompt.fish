@@ -1,0 +1,1 @@
+/home/johnie/.dotfiles/tag-fish/config/fish/functions/fish_prompt.fish
