@@ -96,6 +96,7 @@ alias ra='ranger'	#ranger
 alias tr='trans'	#translate
 alias vi=nvim
 alias vim=nvim
+alias sudo='sudo -E'
 
 alias ranger='. ranger'
 alias nf='jf -e neofetch -1'
