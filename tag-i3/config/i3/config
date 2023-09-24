@@ -48,10 +48,10 @@ hide_edge_borders both
 popup_during_fullscreen smart
 
 # start a terminal
-bindsym $mod+Return workspace $ws1; exec --no-startup-id alacritty
+#bindsym $mod+Return workspace $ws1; exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 bindsym $mod+w exec --no-startup-id rofi -show drun
-
 # bindsym $mod+b exec --no-startup-id dmenu-bluetooth
 bindsym $mod+b exec --no-startup-id rofi-bluetooth
 # switching window with win+tab
