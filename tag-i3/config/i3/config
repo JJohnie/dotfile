@@ -265,7 +265,8 @@ gaps outer 1
 # startup applications
 #exec --no-startup-id xautolock -time 5 -locker '~/.config/i3/lock.sh'
 #exec --no-startup-id xautolock -time 5 -locker "betterlockscreen --lock && sleep 1" -killtime 10 -killer "systemctl suspend"
-exec --no-startup-id xidlehook --not-when-audio --not-when-fullscreen --timer 300 "betterlockscreen -l dim" "" &
+exec --no-startup-id xautolock -time 1 -locker 'betterlockscreen --lock && sleep 1' killtime 1 -killer "systemctl suspend"
+#exec --no-startup-id xidlehook --not-when-audio --not-when-fullscreen --timer 300 "betterlockscreen -l dim" "" &
 #exec --no-startup-id xidlehook --not-when-audio --not-when-fullscreen --timer 10 "betterlockscreen -l dim" &
 exec --no-startup-id dunst
 exec --no-startup-id bash ~/.config/i3/gummy.sh
